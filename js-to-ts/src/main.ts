@@ -1,7 +1,7 @@
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { setupCounter } from "./counter";
-import arrayExc from "./Array/array";
+import arrayLevel1 from "./Array/Level1/array";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -23,4 +23,4 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 
 setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
 
-arrayExc();
+arrayLevel1();

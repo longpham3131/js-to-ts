@@ -5,7 +5,7 @@ const findMiddleValue = (arr: any[]): number[] | string[] => {
     ? arr.slice(middleLength - 1, middleLength + 1)
     : [arr[Math.floor(middleLength)]];
 };
-export default function arrayExc() {
+export default function arrayLevel1() {
   // 1.
   const emptyArr = [];
 
