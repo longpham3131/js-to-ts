@@ -1,16 +1,17 @@
-import { countries } from './Array/Level2/countries';
+import { countries } from "./Array/Level2/countries";
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { setupCounter } from "./counter";
-import { webTechs } from './Array/Level2/web_techs';
-import { ArraysLevel2 } from './Array/Level2/main';
-import ArraysLevel1 from './Array/Level1/main';
-import { ArraysLevel3 } from './Array/Level3/main';
-import { ConditionLevel1 } from './Conditions/Level1/main';
-import { ConditionsLevel2 } from './Conditions/Level2/main';
-import { ConditionsLevel3 } from './Conditions/Level3/main';
-import { ObjectsLevel1 } from './Objects/Level1/main';
-import { ObjectsLevel2 } from './Objects/Level2/main';
+import { webTechs } from "./Array/Level2/web_techs";
+import { ArraysLevel2 } from "./Array/Level2/main";
+import ArraysLevel1 from "./Array/Level1/main";
+import { ArraysLevel3 } from "./Array/Level3/main";
+import { ConditionLevel1 } from "./Conditions/Level1/main";
+import { ConditionsLevel2 } from "./Conditions/Level2/main";
+import { ConditionsLevel3 } from "./Conditions/Level3/main";
+import { ObjectsLevel1 } from "./Objects/Level1/main";
+import { ObjectsLevel2 } from "./Objects/Level2/main";
+import { ObjectsLevel3 } from "./Objects/Level3/main";
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -37,10 +38,10 @@ setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
 
 // ArraysLevel3();
 
-
 // ConditionLevel1();
 // ConditionsLevel2();
 // ConditionsLevel3();
 
 // ObjectsLevel1();
-ObjectsLevel2();
+// ObjectsLevel2();
+ObjectsLevel3();
