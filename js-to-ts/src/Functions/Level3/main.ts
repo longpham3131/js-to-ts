@@ -60,8 +60,6 @@ export function FunctionsLevel3 () {
     //4
     const factorial = (number: number): number =>  number === 1 || number === 0 ?  1 : number * factorial(number - 1); 
 
-    console.log(factorial(100));
-
     //5
     function average(arr: number[]): number | string {
         let sum = 0;
@@ -76,6 +74,4 @@ export function FunctionsLevel3 () {
 
         return hasNotNumber ? 'arr not valid' : sum / arr.length;
     }
-
-    console.log(average([1,2,3,4,5,6,'asd']));
 }
