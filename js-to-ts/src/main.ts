@@ -14,6 +14,7 @@ import { ObjectsLevel2 } from "./Objects/Level2/main";
 import { ObjectsLevel3 } from "./Objects/Level3/main";
 import { FunctionsLevel1 } from "./Functions/Level1/main";
 import { FunctionsLevel2 } from "./Functions/Level2/main";
+import { FunctionsLevel3 } from "./Functions/Level3/main";
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -47,4 +48,5 @@ setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
 // ObjectsLevel3();
 
 // FunctionsLevel1();
-FunctionsLevel2();
+// FunctionsLevel2();
+FunctionsLevel3();
