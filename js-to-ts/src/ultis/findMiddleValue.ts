@@ -1,4 +1,4 @@
- export const findMiddleValue = (arr: any[]): number[] | string[] => {
+ export function findMiddleValue<T> (arr: T[]):  T[] {
     const length = arr.length;
     const middleLength = length / 2;
     return length % 2 === 0
